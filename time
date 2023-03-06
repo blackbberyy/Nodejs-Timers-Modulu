@@ -1,0 +1,12 @@
+TİMERS MODÜLÜ
+timers modülü, zamanlayıcılar oluşturmak ve zamanlanmış görevleri yönetmek için kullanılır. Bu modül, zamanlayıcıları kullanarak belirli bir süre sonra fonksiyonların çalışmasını sağlayabilir.
+Write "Hello" every 500 milliseconds:
+var myInt = setInterval(function () {
+console.log("Hello");
+}, 500);   her 500 msde bir hello
+
+var myInt=setTimeout( () => {
+console.log("Hello")
+},500);  500 ms bekleyip hello
+
+setImmediate()
